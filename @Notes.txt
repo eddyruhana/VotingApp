@@ -1,0 +1,19 @@
+Youtube Tutorial:
+ - Free Code Camp Back End Development: Voting Application Part 4  {video (40:36 / 49.10)}
+
+*api.js (line 11)
+	'59cf375578e4fc17749076d1'
+	'59d8309e9c7b0a10acd1fc2e'
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: 
+http://mongoosejs.com/docs/promises.html
+---------------------------------------------------------------------------------------------------------------------------------------------	
+
+<input type="text" ng-model="vm.options[$index].name" placeholder="Option name" class="form-control" ng-repeat="option in vm.options">
+
+	ng-repeat="option in vm.options"
+ 
+*Location of 'Mongo' and 'Mongod'
+
+

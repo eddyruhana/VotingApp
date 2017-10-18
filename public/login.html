@@ -1,0 +1,8 @@
+<h3>{{vm.title}}</h3>
+<h3 ng-if="vm.error">{{vm.error}}</h3>
+<hr>
+<input type="text" class="form-control" ng-model="vm.user.name">
+<br>
+<input type="text" class="form-control" ng-model="vm.user.password">
+<br>
+<button class="btn btn-success" ng-click="vm.login()" ng-disabled="!vm.user || !vm.user.password || !vm.user.name">Login</button>
